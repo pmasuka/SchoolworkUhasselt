@@ -3,3 +3,11 @@
 	email = pmasuka@gmail.com
 [credential]
 	helper = store
+[diff]
+	tool = meld
+[difftool]
+	prompt = false
+[merge]
+	tool = meld
+[mergetool]
+	prompt = false

@@ -132,3 +132,64 @@ git commit
 git status
 git add .
 git commit
+git status
+git add .
+git push
+git pull
+git pull https://github.com/pmasuka/SchoolworkUhasselt main
+git status
+touch file3.txt
+git add .
+git status
+git push
+git push https://github.com/pmasuka/SchoolworkUhasselt main
+git branch --set-upstream-to=origin/main main
+git branch --set-upstream-to=https://github.com/pmasuka/SchoolworkUhasselt/main main
+git checkout -b main --track origin/main
+git ls-remote --heads origin main
+git remove -v
+git remote -v
+git remote add origin https://github.com/pmasuka/SchoolworkUhasselt
+git pull
+git branch --set-upstream-to=https://github.com/pmasuka/SchoolworkUhasselt/main main
+git branch --set-upstream-to=origin/main main
+git checkout -b main --track origin/main
+git pull
+git push
+git status
+git push
+touch file4.txt
+git add .
+git commit -m "Adding file4"
+git push
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=1000000'
+git config --global credential.helper store
+git status
+touch file5.txt
+git add .
+git commit -m "Adding file5 for testing"
+git push
+touch file6.txt
+git add .
+git commit -m "Testing by adding file6"
+git push
+git log
+git status
+git pull
+ls
+ls -als
+git status
+log
+log file3.txt
+log SchoolworkUhasselt
+git config commit.tempate .gitmessage
+git log --oneline file3.txt
+git log --oneline --decorate file3.txt
+git log --graph
+git diff file5.txt
+git add .
+git status
+git pull
+git diff README.md
+git diff 3d9d703
