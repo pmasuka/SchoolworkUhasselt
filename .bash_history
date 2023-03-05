@@ -193,3 +193,63 @@ git status
 git pull
 git diff README.md
 git diff 3d9d703
+git status
+git pull
+git diff README.md
+git config --global diff.tool meld
+git config --global difftool.prompt false
+git config --global merge.tool meld
+git config --global mergetool.prompt false
+git graph
+git status
+git rm file5.txt
+git status
+git add .
+git push
+git commit
+git push
+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
+git push
+git status
+git add .
+git push
+git restore file5.txt
+git restore README.md
+git add .
+git push
+git show HEAD
+git help
+git clone https://github.com/gjbex/training-material.git
+git clone git@github.com:gjbex/training-material.git
+git pull origin main
+git branch new_feature
+git branch
+git push
+git switch new_feature
+git switch main
+git switch master
+git status
+git push
+git branch
+git switch master
+git add .
+git commit .
+git commit -m 'testing branching'
+git push
+git switch main
+git merge new_feature
+git fetch
+git branch -r
+git status
+git clone
+git log --oneline -graph
+git log --oneline --graph
+git diff main
+git commit -a -m 'Fix divide by 0 bug'
+git blame README.md
+cd ~
+tar xvzf smartgit-linux-22_1_4.tar.gz
+tar smartgit-linux-22_1_4.tar.gz
+tar xvzf smartgit-linux-22_1_4.tar.gz
+git status
+git pull
